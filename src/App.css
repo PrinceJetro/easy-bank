@@ -1,0 +1,277 @@
+body{
+  color: black;
+}
+
+nav .btn{
+  background-color: hsl(136, 65%, 51%);
+  border-radius: 20px;
+  padding: 12px;
+  color: white;
+}
+@media only screen and (min-width: 600px) {
+.intro_right{
+  background-image: url("./components/images/bg-intro-desktop.png");
+  background-position: 10% 40%;
+  background-repeat: no-repeat;
+}
+
+.mopup{
+  object-fit:cover;
+  object-position: 150% 100%;
+}
+
+.intro_left{
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+.intro_left h1{
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.intro_left p{
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 20px;
+}
+
+
+.intro_left .btn{
+  background-color: hsl(136, 65%, 51%);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 12px;
+  color: white;
+}
+.features{
+  padding: 5%;
+}
+
+.features h1{
+  margin-bottom: 2%;
+  font-weight: 300;
+}
+
+.feature{
+  margin-top: 3%;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.feature img{
+  margin-bottom:10px ;
+}
+.feature h3{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.feature p{
+  font-weight: 100;
+}
+
+
+.articles{
+  padding: 5%;
+}
+
+.articles h1{
+  font-weight: 300;
+}
+
+.article{
+  margin-top: 3%;
+  width: 280px;
+  margin-right: 20px;
+}
+
+.article img{
+  width: 100%;
+  height: 200px;
+}
+
+footer{
+  background-color: hsl(233, 26%, 24%);
+  color: white;
+  padding: 5% 0 1% 5%;
+}
+
+footer .logo{
+  background-color: aliceblue;
+  display: block;
+  margin-bottom: 12%;
+}
+
+footer .socials{
+  margin: 10px;
+}
+
+.socials img{
+  height: 35px;
+}
+
+footer a{
+  color: white;
+}
+
+footer .btn{
+  background-color: hsl(136, 65%, 51%);
+  border-radius: 20px;
+  margin: 20px;
+  padding: 12px;
+  color: white;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+  .intro_right{
+    background-image: url("./components/images/bg-intro-mobile.png");
+    background-repeat: no-repeat;
+    background-position: 0% -10%;
+    background-size: cover;
+  }
+  
+  .mopup{
+    object-fit:cover;
+    object-position: 60% 60%;
+    width: 100%;
+  }
+  
+  .intro_left{
+    padding-top: 10%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intro_left h1{
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .intro_left p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
+    text-align: center;
+
+  }
+  
+  
+  .intro_left .btn{
+    background-color: hsl(136, 65%, 51%);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 12px;
+    color: white;
+
+  }
+
+  .features{
+    padding: 5%;
+  }
+  
+  .features h1{
+    margin-bottom: 2%;
+    text-align: center;
+    font-weight: 300;
+  }
+  .features p{
+    margin-bottom: 10%;
+    text-align: center;
+    font-weight: 100;
+  }
+  
+  .feature{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feature img{
+    margin-bottom:10px ;
+  }
+  .feature h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+  
+  .feature p{
+    font-weight: 100;
+  }
+  
+  
+  .articles{
+    padding: 5%;
+  }
+  .articles h1{
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  .article{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .article img{
+    width: 100%;
+    height: 200px;
+  }
+  
+  footer{
+    background-color: hsl(233, 26%, 24%);
+    color: white;
+    padding: 5% 0 1% 5%;
+  }
+
+  footer .first,.second,.third,.fourth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer .logo{
+    background-color: aliceblue;
+    display: block;
+    margin-bottom: 12%;
+  }
+  
+  footer .socials{
+    margin: 10px;
+  }
+  
+  .socials img{
+    height: 35px;
+  }
+  footer .logo{
+    margin-top: 10%;
+  }
+  footer a{
+    color: white;
+  }
+  
+  footer .btn{
+    background-color: hsl(136, 65%, 51%);
+    border-radius: 20px;
+    margin: 20px;
+    padding: 12px;
+    color: white;
+  }
+   
+}
