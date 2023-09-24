@@ -2,6 +2,10 @@ body{
   color: black;
 }
 
+
+.text{
+  font-weight: 100;
+}
 nav .btn{
   background-color: hsl(136, 65%, 51%);
   border-radius: 20px;
